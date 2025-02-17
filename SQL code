@@ -1,1 +1,11 @@
-
+CREATE TABLE IF NOT EXISTS income (
+    Job TEXT PRIMARY KEY NOT NULL,
+    Income INT NOT NULL
+);
+INSERT INTO income (Job, Income) VALUES
+('None', 0),
+('Farmer', 200000),
+('Painter', 100000),
+('Writer', 50000),
+('Retired', 0),
+('Baker', 80000);
